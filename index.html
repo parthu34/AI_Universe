@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Universe | Empowering Local Businesses with AI</title>
+  <style>
+    /* Basic reset */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background-image: url('https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1600&q=80');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    section {
+      margin-bottom: 60px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .service-card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      width: 280px;
+      text-align: center;
+    }
+
+    .service-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    .service-card h3 {
+      margin: 15px 0 10px;
+      font-size: 1.3rem;
+      color: #34495e;
+    }
+
+    .service-card p {
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    .campaign {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .campaign .item {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+
+    .campaign h4 {
+      margin-bottom: 10px;
+      color: #2c3e50;
+      font-size: 1.1rem;
+    }
+
+    .campaign p {
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    .contact {
+      background: #2c3e50;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      border-radius: 8px;
+    }
+
+    .contact h2 {
+      color: white;
+      margin-bottom: 10px;
+    }
+
+    .contact p {
+      font-size: 1rem;
+      margin-bottom: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #f1f1f1;
+      color: #666;
+      font-size: 0.8rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AI Universe</h1>
+    <p>Empowering local businesses and clinics with smart AI tools. Our mission is to help small businesses thrive using cutting‑edge automation.</p>
+  </header>
+  <main>
+    <section>
+      <h2>Our Services</h2>
+      <div class="services">
+        <div class="service-card">
+          <img src="https://plus.unsplash.com/premium_photo-1739254731973-209702f3bbd7?q=80&w=1720&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Review Generator">
+          <h3>Google Review Reply Generator</h3>
+          <p>Save hours by generating polite, professional replies to your customers’ reviews in seconds.</p>
+        </div>
+        <div class="service-card">
+          <img src="https://plus.unsplash.com/premium_photo-1759854171599-26bfb5de8572?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Scheduling Growth Assistant">
+          <h3>Scheduling Growth Assistant (Clinic Reception)</h3>
+          <p>Streamlines reminders, follow‑ups, and waitlist management for clinics via simple CSV uploads to cut no‑shows.</p>
+        </div>
+        <div class="service-card">
+          <img src="https://images.unsplash.com/photo-1522199710521-72d69614c702?auto=format&fit=crop&w=800&q=80" alt="PDF Summary">
+          <h3>PDF Summary &amp; Q&amp;A Tool</h3>
+          <p>Upload any PDF and get concise summaries and ready‑to‑use Q&amp;As to speed up your workflow.</p>
+        </div>
+        <div class="service-card">
+          <img src="https://images.unsplash.com/photo-1485217988980-11786ced9454?auto=format&fit=crop&w=800&q=80" alt="Script Generator">
+          <h3>Reels/YouTube Script Generator</h3>
+          <p>Create engaging short videos with AI‑generated scripts tailored to your brand voice.</p>
+        </div>
+        <div class="service-card">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" alt="Product Descriptions">
+          <h3>Product Description Generator</h3>
+          <p>Generate compelling product descriptions that resonate with your customers and boost sales.</p>
+        </div>
+        <div class="service-card">
+          <img src="https://plus.unsplash.com/premium_photo-1677093906033-dc2beb53ace3?q=80&w=1160&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cold Email & LinkedIn">
+          <h3>Cold Email &amp; LinkedIn Outreach</h3>
+          <p>Send personalized cold emails and LinkedIn messages that convert leads into customers.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>What We Offer</h2>
+      <div class="campaign">
+        <div class="item">
+          <h4>AI Automation for Business</h4>
+          <p>AI agents streamline your processes and save you time, letting you focus on what matters.</p>
+        </div>
+        <div class="item">
+          <h4>Cut Costs With AI Agents</h4>
+          <p>Automate repetitive tasks and reduce operational costs without sacrificing quality.</p>
+        </div>
+        <div class="item">
+          <h4>AI Setup in 48 Hours</h4>
+          <p>Get up and running quickly. Our team can configure AI tools in just two days.</p>
+        </div>
+        <div class="item">
+          <h4>AI Support for Your Store</h4>
+          <p>We provide ongoing AI support so your store can operate smoothly and efficiently.</p>
+        </div>
+        <div class="item">
+          <h4>Smart AI for Local Shops</h4>
+          <p>Bring cutting‑edge AI to your local shop and offer a better experience to your community.</p>
+        </div>
+        <div class="item">
+          <h4>Custom AI agents for your business—fast setup, real results.</h4>
+          <p>Use our custom agents to automate everyday tasks and experience immediate benefits.</p>
+        </div>
+        <div class="item">
+          <h4>Get AI chatbots, automations &amp; dashboards built for your exact business.</h4>
+          <p>We tailor AI solutions exactly to your needs, from chatbots to analytics dashboards.</p>
+        </div>
+        <div class="item">
+          <h4>Simple pricing. Quick onboarding. Real support.</h4>
+          <p>We make it easy to get started and support you every step of the way.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>Contact Us</h2>
+      <p>Have questions or ready to get started? We’d love to hear from you!</p>
+      <p>Email: <a href="mailto:ai.universe3496@gmail.com" style="color: #ecf0f1;">ai.universe3496@gmail.com</a></p>
+      <p>Phone: <a href="tel:5483336222" style="color: #ecf0f1;">548-333-6222</a></p>
+      <p>Founder: Parth Darji</p>
+    </section>
+  </main>
+  <footer>
+    &copy; 2026 AI Universe. All rights reserved.
+  </footer>
+</body>
+</html>
