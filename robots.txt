@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://parthu34.github.io/AI_Universe/sitemap.xml
